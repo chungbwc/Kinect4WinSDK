@@ -1,0 +1,21 @@
+﻿Build started 7/5/2014 9:31:50 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\Kinect4WinSDK\Kinect4WinSDK.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_60\include\win32" /I"C:\Program Files\Java\jdk1.7.0_60\include" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KINECT4WINSDK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Kinect4WinSDK.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Kinect4WinSDK.cpp kinect4WinSDK_Kinect.cpp
+         Kinect4WinSDK.cpp
+     1>Kinect4WinSDK.cpp(284): warning C4244: '=' : conversion from 'NUI_SKELETON_POSITION_TRACKING_STATE' to 'float', possible loss of data
+         kinect4WinSDK_Kinect.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\x64\Release\Kinect4WinSDK.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\amd64" Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\x64\Release\Kinect4WinSDK.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\x64\Release\Kinect4WinSDK.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\Kinect4WinSDK.obj
+         x64\Release\kinect4WinSDK_Kinect.obj
+         x64\Release\stdafx.obj
+            Creating library C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\x64\Release\Kinect4WinSDK.lib and object C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\x64\Release\Kinect4WinSDK.exp
+         Generating code
+         Finished generating code
+         Kinect4WinSDK.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\x64\Release\Kinect4WinSDK.dll
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2012\Projects\Kinect4WinSDK\Kinect4WinSDK\Kinect4WinSDK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.26
